@@ -1,0 +1,19 @@
+{
+  "name": "Pardakhte-Amn",
+  "version": "1.0",
+  "description": "Anti phishing extension",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": {
+      "16": "images/safe.png",
+      "24": "images/safe.png",
+      "32": "images/safe.png"
+    },
+    "default_title": "Pardakhte Amn"
+  },
+  "permissions":["tabs"],
+  "manifest_version": 2
+}
